@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "484f83e9-2bb6-449c-a28d-2afca08d4430", 
+    "key": "newproxmoxserver", 
+    "name": "New Proxmox Server", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinuxServer"
+}

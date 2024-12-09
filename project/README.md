@@ -1,0 +1,1 @@
+Automate the unattended installation of Proxmox on bare-metal systems. The process uses an answer file to define installation parameters, including filter rules for selecting disks and network interfaces.

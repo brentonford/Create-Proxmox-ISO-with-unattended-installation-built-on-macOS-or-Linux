@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "a12cf364-8b9c-436c-9808-af141ebae450", 
+    "interpreter": 1, 
+    "key": "createproxmoxautoinstallisowithanswerincluded", 
+    "name": "Create Proxmox auto install ISO with Answer included", 
+    "osCredKey": "automationworkeruserroot", 
+    "serverKey": "automationworkerdebian", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

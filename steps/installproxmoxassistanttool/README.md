@@ -1,0 +1,1 @@
+Check if the package `proxmox-auto-install-assistant` is installed. Install if the package isn't found.

@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "76c96c39-1d9d-42ae-a340-9912620c1145", 
+    "key": "newnodedns", 
+    "name": "New Node DNS", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Server"
+}

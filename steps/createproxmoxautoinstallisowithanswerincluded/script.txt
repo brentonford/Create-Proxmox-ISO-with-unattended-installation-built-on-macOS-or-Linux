@@ -1,0 +1,11 @@
+cd {automationWorkerBaseDirectory} && pwd
+
+for file in proxmox-ve*auto-from-iso.iso; do
+    [ -f $file ] && rm $file
+done
+
+proxmox-auto-install-assistant prepare-iso proxmox-ve*.iso --fetch-from iso --answer-file answer.toml
+
+for file in proxmox-ve*auto-from-iso.iso; do
+    mv -v $file "kickstart_{newOsNode.fqn}.iso"
+done

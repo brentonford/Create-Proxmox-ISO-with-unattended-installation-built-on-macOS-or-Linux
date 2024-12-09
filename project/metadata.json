@@ -1,4 +1,6 @@
 {
+    "externalUuid4": "0db3aa7c-4729-4cdc-9c12-6a4c5d09287c", 
+    "key": "project", 
     "name": "Create Proxmox VE ISO with Unattended Installation built on macOS or Linux", 
     "revision": "145c6dc54454"
 }

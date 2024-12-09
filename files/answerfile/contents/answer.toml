@@ -1,0 +1,18 @@
+[global]
+keyboard = "en-us"
+country = "au"
+fqdn = "${proxmoxServer.fqn}"
+mailto = "${proxmoxMailto}"
+timezone = "Australia/Melbourne"
+root_password = "${proxmoxUserRoot.password}"
+
+[network]
+source = "from-answer"
+cidr = "${proxmoxServer.ip}/24"
+dns = "${proxmoxDns.ip}"
+gateway = "${proxmoxGateway.ip}"
+filter.ID_NET_NAME_MAC = "*"
+
+[disk-setup]
+filesystem = "xfs"
+filter.ID_MODEL = "*"

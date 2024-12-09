@@ -1,0 +1,1 @@
+Ensure the specified directory `{automationWorkerBaseDirectory}` exists, creating it if necessary, then navigates to it. Check for the presence of the Proxmox VE ISO in the directory. If the file exists, skip the download, otherwise download the ISO and verify.

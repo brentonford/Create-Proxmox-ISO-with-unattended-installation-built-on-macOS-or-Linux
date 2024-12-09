@@ -1,0 +1,42 @@
+{
+    "actionOnStepFail": "stop", 
+    "archiveKey": "answerfile", 
+    "deployPath": "{automationWorkerBaseDirectory}", 
+    "enabled": true, 
+    "externalUuid4": "635bca7c-e847-4918-a017-5c65382acba2", 
+    "key": "deployanswerfile", 
+    "makoFileNames": [
+        "answer.toml"
+    ], 
+    "makoParameters": [
+        {
+            "name": "proxmoxServer", 
+            "parameterKey": "newosnode", 
+            "parameterType": "c.s.s.b.phv.LinuxServer"
+        }, 
+        {
+            "name": "proxmoxMailto", 
+            "parameterKey": "newnodemailto", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "proxmoxUserRoot", 
+            "parameterKey": "newnodeuserroot", 
+            "parameterType": "c.s.s.b.phv.LinOsCred"
+        }, 
+        {
+            "name": "proxmoxDns", 
+            "parameterKey": "newnodedns", 
+            "parameterType": "c.s.s.b.phv.Server"
+        }, 
+        {
+            "name": "proxmoxGateway", 
+            "parameterKey": "newnodegateway", 
+            "parameterType": "c.s.s.b.phv.Server"
+        }
+    ], 
+    "name": "Deploy Answer File", 
+    "osCredKey": "automationworkerusernonprivileged", 
+    "serverKey": "automationworkerdebian", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

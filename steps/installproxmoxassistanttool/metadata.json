@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "b0285f1e-69a7-4a9f-bf0e-d6da3a434daf", 
+    "interpreter": 1, 
+    "key": "installproxmoxassistanttool", 
+    "name": "Install Proxmox Assistant Tool", 
+    "osCredKey": "automationworkeruserroot", 
+    "serverKey": "automationworkerdebian", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

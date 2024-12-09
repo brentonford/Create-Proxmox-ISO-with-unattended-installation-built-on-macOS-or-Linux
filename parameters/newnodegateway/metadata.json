@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "57109c0c-33b4-4862-a2d3-4eb361cd1eab", 
+    "key": "newnodegateway", 
+    "name": "New Node Gateway", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Server"
+}

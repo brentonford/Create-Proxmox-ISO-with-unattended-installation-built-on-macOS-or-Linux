@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "2767a99f-74e6-48ef-8ba1-9164588359a3", 
+    "key": "newnodemailto", 
+    "name": "New Node Mailto", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}
