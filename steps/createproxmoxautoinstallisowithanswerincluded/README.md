@@ -1,1 +1,1 @@
-Remove any existing ISO files matching `proxmox-ve*auto-from-iso.iso`. Run the Proxmox Auto Install Assistant to prepare a new ISO configured to fetch the answer file from the ISO. Finally, it renames the newly created ISO file, with `kickstart_{newOsNode.fqn}.iso`.
+Run the Proxmox Auto Install Assistant to prepare a new ISO configured to fetch the answer file from the ISO. Update the ISO owner.

@@ -7,13 +7,13 @@
     "key": "createproxmoxve83answerincludediso", 
     "links": [
         {
-            "stepKey": "downloadproxmoxiso"
+            "stepKey": "isproxmoxisodownloaded"
         }, 
         {
-            "stepKey": "installproxmoxassistanttool"
+            "stepKey": "isproxmoxassistanttoolinstalled"
         }, 
         {
-            "stepKey": "deployanswerfile"
+            "stepKey": "deployproxmoxanswerfile"
         }, 
         {
             "stepKey": "createproxmoxautoinstallisowithanswerincluded"

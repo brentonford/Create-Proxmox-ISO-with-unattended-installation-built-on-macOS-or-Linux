@@ -1,7 +1,7 @@
 {
     "externalUuid4": "1ec33650-7b98-4be4-9688-21d357135374", 
-    "key": "automationworkerdebian", 
-    "name": "Automation Worker Debian", 
+    "key": "workerdebian", 
+    "name": "Worker Debian", 
     "showInPlan": true, 
     "type": "c.s.s.b.phv.LinuxServer"
 }

@@ -1,0 +1,6 @@
+if dpkg -l | grep -qw proxmox-auto-install-assistant; then
+    echo "Package 'proxmox-auto-install-assistant' is already installed."
+else
+    echo "Installing 'proxmox-auto-install-assistant'..."
+    apt install -y proxmox-auto-install-assistant && echo "Installation successful!" || echo "Installation failed!"
+fi

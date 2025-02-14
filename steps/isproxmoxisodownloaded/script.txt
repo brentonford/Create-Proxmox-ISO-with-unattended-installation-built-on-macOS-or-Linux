@@ -1,0 +1,9 @@
+mkdir -pv {workerBaseDirectory}
+cd {workerBaseDirectory} && pwd
+
+if [ -f "proxmox-ve_8.3-1.iso" ]; then
+    echo "File 'proxmox-ve_8.3-1.iso' already exists. Skipping download!"
+else
+    echo "Downloading 'proxmox-ve_8.3-1.iso'..."
+    wget https://enterprise.proxmox.com/iso/proxmox-ve_8.3-1.iso && echo "Download successful!" || echo "Download failed!"
+fi

@@ -1,10 +1,10 @@
 {
     "actionOnStepFail": "stop", 
     "archiveKey": "answerfile", 
-    "deployPath": "{automationWorkerBaseDirectory}", 
+    "deployPath": "{workerBaseDirectory}", 
     "enabled": true, 
     "externalUuid4": "635bca7c-e847-4918-a017-5c65382acba2", 
-    "key": "deployanswerfile", 
+    "key": "deployproxmoxanswerfile", 
     "makoFileNames": [
         "answer.toml"
     ], 
@@ -35,8 +35,8 @@
             "parameterType": "c.s.s.b.phv.Server"
         }
     ], 
-    "name": "Deploy Answer File", 
-    "osCredKey": "automationworkerusernonprivileged", 
-    "serverKey": "automationworkerdebian", 
+    "name": "Deploy Proxmox Answer File", 
+    "osCredKey": "workerlinuxusernonprivileged", 
+    "serverKey": "workerdebian", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
 }
