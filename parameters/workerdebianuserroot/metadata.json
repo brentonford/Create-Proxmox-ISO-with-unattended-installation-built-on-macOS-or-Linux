@@ -1,7 +1,7 @@
 {
     "externalUuid4": "8ae28710-6129-42d3-a509-02250d090acb", 
-    "key": "workerlinuxuserroot", 
-    "name": "Worker Linux User: root", 
+    "key": "workerdebianuserroot", 
+    "name": "Worker Debian User: root", 
     "showInPlan": true, 
     "type": "c.s.s.b.phv.LinOsCred"
 }

@@ -5,7 +5,7 @@
     "interpreter": 1, 
     "key": "isproxmoxisodownloaded", 
     "name": "Is Proxmox ISO downloaded", 
-    "osCredKey": "workerlinuxusernonprivileged", 
+    "osCredKey": "workerdebianusernonprivileged", 
     "serverKey": "workerdebian", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"

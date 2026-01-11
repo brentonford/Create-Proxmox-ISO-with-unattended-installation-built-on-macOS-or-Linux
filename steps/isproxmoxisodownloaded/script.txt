@@ -1,7 +1,7 @@
 proxmox_version="proxmox-ve_8.4-1.iso"
 
-mkdir -pv {workerBaseDirectory}
-cd {workerBaseDirectory} && pwd
+mkdir -pv {workerPRoxmoxBaseDirectory}
+cd {workerPRoxmoxBaseDirectory} && pwd
 
 if [ -f "$proxmox_version" ]; then
     echo "File '$proxmox_version already exists. Skipping download!"

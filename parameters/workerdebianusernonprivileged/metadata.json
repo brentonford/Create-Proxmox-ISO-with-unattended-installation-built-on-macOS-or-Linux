@@ -1,7 +1,7 @@
 {
     "externalUuid4": "2de9803e-e379-4168-b7c5-c8ee92de34ba", 
-    "key": "workerlinuxusernonprivileged", 
-    "name": "Worker Linux User: non privileged", 
+    "key": "workerdebianusernonprivileged", 
+    "name": "Worker Debian User: non privileged", 
     "showInPlan": true, 
     "type": "c.s.s.b.phv.LinOsCred"
 }

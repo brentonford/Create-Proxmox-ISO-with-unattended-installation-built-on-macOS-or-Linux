@@ -1,7 +1,7 @@
 {
     "actionOnStepFail": "stop", 
     "archiveKey": "answerfile", 
-    "deployPath": "{workerBaseDirectory}", 
+    "deployPath": "{workerPRoxmoxBaseDirectory}", 
     "enabled": true, 
     "externalUuid4": "635bca7c-e847-4918-a017-5c65382acba2", 
     "key": "deployproxmoxanswerfile", 
@@ -36,7 +36,7 @@
         }
     ], 
     "name": "Deploy Proxmox Answer File", 
-    "osCredKey": "workerlinuxusernonprivileged", 
+    "osCredKey": "workerdebianusernonprivileged", 
     "serverKey": "workerdebian", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
 }

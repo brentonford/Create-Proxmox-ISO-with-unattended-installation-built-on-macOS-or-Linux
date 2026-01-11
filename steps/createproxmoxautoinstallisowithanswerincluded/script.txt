@@ -1,7 +1,7 @@
-cd {workerBaseDirectory} && pwd
+cd {workerPRoxmoxBaseDirectory} && pwd
 
 proxmox-auto-install-assistant prepare-iso proxmox-ve*.iso --fetch-from iso --answer-file answer.toml --output "kickstart_{newOsNode.fqn}.iso"
 
-chown {workerLinuxUserNonPrivileged.user}:{workerLinuxUserNonPrivileged.user} kickstart_{newOsNode.fqn}.iso
+chown {workerDebianUserNonPrivileged.user}:{workerDebianUserNonPrivileged.user} kickstart_{newOsNode.fqn}.iso
 
 ls -ltrh kickstart_{newOsNode.fqn}.iso

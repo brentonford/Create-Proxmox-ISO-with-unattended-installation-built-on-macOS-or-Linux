@@ -5,7 +5,7 @@
     "interpreter": 1, 
     "key": "isproxmoxassistanttoolinstalled", 
     "name": "Is Proxmox Assistant Tool installed", 
-    "osCredKey": "workerlinuxuserroot", 
+    "osCredKey": "workerdebianuserroot", 
     "serverKey": "workerdebian", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"

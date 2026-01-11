@@ -5,7 +5,7 @@
     "interpreter": 1, 
     "key": "createproxmoxautoinstallisowithanswerincluded", 
     "name": "Create Proxmox auto install ISO with Answer included", 
-    "osCredKey": "workerlinuxuserroot", 
+    "osCredKey": "workerdebianuserroot", 
     "serverKey": "workerdebian", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"
