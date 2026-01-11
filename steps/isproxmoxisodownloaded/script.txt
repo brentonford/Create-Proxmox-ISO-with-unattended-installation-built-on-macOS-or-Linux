@@ -1,11 +1,39 @@
-proxmox_version="proxmox-ve_8.4-1.iso"
+proxmoxUrl="https://enterprise.proxmox.com/iso/"
+proxmoxFile="proxmox-ve_8.4-1.iso"
+checksumFile="SHA256SUMS"
 
 mkdir -pv {workerPRoxmoxBaseDirectory}
 cd {workerPRoxmoxBaseDirectory} && pwd
 
-if [ -f "$proxmox_version" ]; then
-    echo "File '$proxmox_version already exists. Skipping download!"
+if [ -f "$proxmoxFile" ]; then
+    echo "File '$proxmoxFile already exists. Skipping download!"
 else
-    echo "Downloading '$proxmox_version'..."
-    wget https://enterprise.proxmox.com/iso/$proxmox_version && echo "Download successful!" || (echo "Download failed!" && exit 1)
+    echo "Downloading '$proxmoxFile'..."
+    wget https://enterprise.proxmox.com/iso/$proxmoxFile && 
+        echo "Download successful!" || (echo "Download failed!" && exit 1)
 fi
+
+echo "Downloading checksum file..."
+wget "$proxmoxUrl$checksumFile" && 
+    echo "Download successful!" || (echo "Download failed!" && exit 1)
+
+expectedChecksum=$(grep "$proxmoxFile" "$checksumFile" | awk '{print $1}')
+
+if [ -z "$expectedChecksum" ]
+then
+    echo "Checksum for '$proxmoxFile' not found in $checksumFile!"
+    exit 1
+fi
+
+actualChecksum=$(sha256sum "$proxmoxFile" | awk '{print $1}')
+
+echo "Expected: $expectedChecksum"
+echo "Actual:   $actualChecksum"
+
+if [ "$expectedChecksum" != "$actualChecksum" ]
+then
+    echo "Checksum mismatch!"
+    exit 1
+fi
+
+echo "Checksum verified successfully!"
