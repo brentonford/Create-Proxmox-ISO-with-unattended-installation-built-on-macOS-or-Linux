@@ -4,7 +4,7 @@
     "enabled": true, 
     "externalUuid4": "40e9eaca-12de-4f39-9459-007a23bd84ce", 
     "isBlueprint": true, 
-    "key": "createproxmoxve83answerincludediso", 
+    "key": "createproxmoxve84answerincludediso", 
     "links": [
         {
             "stepKey": "isproxmoxisodownloaded"
@@ -19,6 +19,6 @@
             "stepKey": "createproxmoxautoinstallisowithanswerincluded"
         }
     ], 
-    "name": "Create Proxmox VE 8.3 Answer included ISO", 
+    "name": "Create Proxmox VE 8.4 Answer included ISO", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }
